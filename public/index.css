@@ -43,7 +43,7 @@ h1 a {
 #tagline {
   color: #42484D;
   width: 23em;
-  text-align: left;
+  text-align: center;
   font-size: 1.4em;
   margin:1.5em auto;
 }
@@ -93,7 +93,7 @@ h1 a {
 }
 
 form {
-  margin: 1.33em auto;
+  margin: 0px;
 }
 
 form input {
@@ -102,19 +102,19 @@ form input {
   -moz-border-radius: 3px;
   -webkit-border-radius: 0.2em;
   padding: 5px;
-  font-size: 110%;
-  font-family: Georgia, serif;
+  font-size: 150%;
+  font-family: Tahoma, serif;
 }
 
 form input#email {
-  width: 18em;
+  width: 14em;
 }
 
 form input[type=submit] {
-  border: 1px solid #c5250f;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ef4832), color-stop(100%, #c5250f));
-  background-image: -moz-linear-gradient(top, #ef4832 0%, #c5250f 100%);
-  background-image: linear-gradient(top, #299a0b 0%, #299a0b 100%);
+  border: 1px solid #117cb8;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #11aaff), color-stop(100%, #117cb8));
+  background-image: -moz-linear-gradient(top, #11aaff 0%, #117cb8 100%);
+  background-image: linear-gradient(top, #117cb8 0%, #117cb8 100%);
   text-shadow: #999999 0px -1px 1px;
   color: white;
 }
