@@ -32,3 +32,11 @@ post '/signup' do
   end
   "Success."
 end
+
+get '/ella' do
+  'what up'
+end
+
+not_found do
+  'The item you are looking for was not found :('
+end
