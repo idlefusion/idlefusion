@@ -56,6 +56,11 @@ h1 a {
   margin: 1.67em auto 0.8em auto;
 }
 
+#description img{
+  height: 300px;
+  margin:0px;
+}
+
 #notices {
   color: #40449B;
   width: 35em;
