@@ -107,7 +107,7 @@ form input {
 }
 
 form input#email {
-  width: 14em;
+  width: 12em;
 }
 
 form input[type=submit] {
