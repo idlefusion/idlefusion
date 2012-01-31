@@ -120,10 +120,10 @@ form input#email {
 }
 
 form input[type=submit] {
-  border: 1px solid #117cb8;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #11aaff), color-stop(100%, #117cb8));
-  background-image: -moz-linear-gradient(top, #11aaff 0%, #117cb8 100%);
-  background-image: linear-gradient(top, #117cb8 0%, #117cb8 100%);
+  border: 1px solid #4983c2;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #4983c2), color-stop(100%, #4983c2));
+  background-image: -moz-linear-gradient(top, #4983c2 0%, #4983c2 100%);
+  background-image: linear-gradient(top, #4983c2 0%, #4983c2 100%);
   text-shadow: #999999 0px -1px 1px;
   color: white;
 }
