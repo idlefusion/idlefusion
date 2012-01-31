@@ -66,12 +66,12 @@ h1 a {
 }
 
 #notices {
-  color: #40449B;
+  color: red;
   width: 35em;
   text-align: center;
   font-size: 1em;
   min-height: 1.2em;
-  margin: 0 auto;
+  margin: 1.5em auto;
 }
 
 #signup-terms, #footer {
