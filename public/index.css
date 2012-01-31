@@ -9,12 +9,16 @@ body {
   min-height: 100%;
 }
 
+#header img {
+  
+}
+
 #container {
   background-color: white;
   border-radius: 0.67em;
   -moz-border-radius: 0.8em;
   -webkit-border-radius: 0.8em;
-  margin: 5% auto 0 auto;
+  margin: 4% auto 0 auto;
   width: 50em;
   padding: 2%;
 }
@@ -45,7 +49,7 @@ h1 a {
   width: 23em;
   text-align: center;
   font-size: 1.4em;
-  margin:1.5em auto;
+  margin:0 auto;
 }
 
 #description {
