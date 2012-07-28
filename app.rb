@@ -11,15 +11,7 @@ configure do
 end
 
 get '/' do
-  File.read(File.join('public', 'index.html'))
-end
-
-get '/about' do
-  File.read(File.join('public', 'about.html'))
-end
-
-get '/contact' do
-  File.read(File.join('public', 'contact.html'))
+  erb :home
 end
 
 post '/signup' do
@@ -31,10 +23,6 @@ post '/signup' do
     mailchimp.list_subscribe(list_id, email, {}, 'html', false, true, true, false)
   end
   "Success."
-end
-
-get '/ella' do
-  'what up'
 end
 
 not_found do
