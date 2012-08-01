@@ -54,7 +54,7 @@ p {
 
 h1 {
   width: 471px;
-  height: 165px;
+  height: 120px;
   background: url(/images/logo.png) no-repeat;
   text-indent: -9009em;
   margin: 0 auto;
@@ -200,12 +200,14 @@ footer a {
   }
   
   section, footer {
-    width: 300px;
+    width: 384px;
   }
   
   h1 {
-    width: 173px;
-    background-size: 173px 200px;
+    width: 384px;
+    height: 200px;
+    background-image: url(/images/logo-narrow.png);
+    background-size: 384px 200px;
   }
 }
 
