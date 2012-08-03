@@ -189,10 +189,7 @@ footer a {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   h1 {
-    width: 600px;
-    height: 313px;
-    background-size: 600px 313px;
-    background-image: url(/images/logo@2x.png);
+    background-image: url(/images/logo.png);
   }
 }
 
